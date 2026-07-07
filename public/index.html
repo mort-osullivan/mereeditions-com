@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mere Editions — a collaborative print studio in Chapel Hill, NC</title>
+  <meta name="description" content="Mere Editions is a collaborative print studio in Chapel Hill, North Carolina — editions, handmade books, and printing projects with photographers. Full site coming soon.">
+  <meta property="og:title" content="Mere Editions">
+  <meta property="og:description" content="A collaborative print studio in Chapel Hill, North Carolina. Full site coming soon.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.mereeditions.com/">
+  <link rel="icon" href="/mere-mark.svg" type="image/svg+xml">
+  <style>
+    @font-face {
+      font-family: 'Inter Variable';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url('/fonts/inter-latin-wght-normal.woff2') format('woff2-variations');
+    }
+    :root {
+      --paper: #faf8f4;
+      --ink: #141414;
+      --body: #333330;
+      --faint: #8f8d84;
+      --rule: #e8e5dc;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { background: var(--paper); }
+    body {
+      font-family: 'Inter Variable', Helvetica, Arial, sans-serif;
+      color: var(--body);
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 34rem; }
+    .mark {
+      width: 44px;
+      height: 44px;
+      margin-bottom: 1.75rem;
+      opacity: 0.85;
+    }
+    h1 {
+      color: var(--ink);
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      text-indent: 0.32em; /* balances the trailing letter-space */
+      margin-bottom: 2.25rem;
+    }
+    p {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      font-weight: 400;
+    }
+    .studio { margin-bottom: 0.35rem; }
+    .soon {
+      margin-top: 2.25rem;
+      padding-top: 2.25rem;
+      border-top: 1px solid var(--rule);
+      color: var(--faint);
+      font-size: 0.85rem;
+    }
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-color: var(--rule);
+      text-underline-offset: 3px;
+      transition: text-decoration-color 0.15s ease;
+    }
+    a:hover { text-decoration-color: var(--faint); }
+    footer {
+      position: fixed;
+      bottom: 1.5rem;
+      left: 0;
+      right: 0;
+      color: var(--faint);
+      font-family: 'Inter Variable', Helvetica, Arial, sans-serif;
+      font-size: 0.78rem;
+    }
+    @media (max-height: 480px) {
+      footer { position: static; margin-top: 3rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="mark" src="/mere-mark.svg" alt="" width="44" height="44">
+    <h1>Mere Editions</h1>
+    <p class="studio">A collaborative print studio in Chapel Hill,&nbsp;North&nbsp;Carolina.</p>
+    <p>Editions, handmade books, and printing projects with&nbsp;photographers.</p>
+    <p class="soon">Full site coming soon. Until then — <a href="mailto:info@mereeditions.com">info@mereeditions.com</a></p>
+  </main>
+  <footer>Founded by <a href="https://www.mortosullivan.com">Mort&nbsp;O&#8217;Sullivan</a></footer>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  // Cloudflare Workers config — serves the static coming-soon page.
+  // No build step: assets served straight from ./public.
+  "name": "mereeditions-com",
+  "compatibility_date": "2026-07-01",
+  "assets": {
+    "directory": "./public"
+  }
+}
